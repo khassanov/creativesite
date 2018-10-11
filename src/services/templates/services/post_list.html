@@ -43,24 +43,18 @@
         {% endfor %}
     </div>
     
-
-    
-    
-   
-    
-
- 
-
-    <!-- ContactForm -->
-    <div class="contact-form text-center justify-content-center">
-        <h3>{{ message }}</h3>
-    <form method="POST" action="">
+   <!-- ContactForm -->
+   <div class="col-sm-6 py-5">
+    <h3  class="text-center">{{ message }}</h3>
+    <form method="POST" action="" style="text-align:left;">
         {% csrf_token %}
         {{ contact_form|crispy }}
-        <input class="btn" type="submit" value="Отправить"/>
+        <input class="btn" type="submit" value="Отправить" />
     </form>
-    </div>
-     <!-- ContactForm -->
+</div>
+ <!-- ContactForm -->
+</div>
+    
 </div>
 
 {% endblock %}

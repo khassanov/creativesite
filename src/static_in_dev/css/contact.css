@@ -8,11 +8,6 @@
     
 }
 
-.contact-form{
-    margin: auto;
-    
-}
-
 .contact-list{
     display: flex;
     justify-content: space-between;
@@ -21,4 +16,11 @@
 .contact-list-phone{
    display: block;
    font-size: 2rem;
+}
+
+button, input, optgroup, select, textarea {
+    min-width: 100%;
+}
+.btn{
+    min-width: 30%;
 }
