@@ -1,0 +1,23 @@
+.contact{
+
+    background-color: #2F2F2F;
+    color: #ffffff;
+    text-align: center;
+    
+    justify-content: center;
+    
+}
+
+.contact-form{
+    margin: auto;
+    
+}
+
+.contact-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-list-phone{
+   display: block;
+}

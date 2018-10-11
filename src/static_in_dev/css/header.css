@@ -1,0 +1,49 @@
+.header{
+
+   
+    background:url('../img/header-bg.jpg') no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 700px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.nav a{
+
+    color: white;
+    font-size: 18px;
+    
+}
+
+.nav a:hover{
+    cursor: pointer;
+}
+
+
+.header-text{
+    
+    padding: 10%;
+    margin: auto;
+    height: 20%;
+    width: 100%;
+}
+
+.header-text h1{
+    
+    font-size: 5.6rem;
+    text-align: center;
+    font-family: 'monospace';
+    color:#ffffff;
+
+}
